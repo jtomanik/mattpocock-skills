@@ -39,6 +39,19 @@ npx skills@latest add mattpocock/skills
 
 4. Bam - you're ready to go.
 
+## Codex Marketplace
+
+This repo also includes a local Codex marketplace entry for the non-deprecated skills.
+
+```bash
+codex plugin marketplace add .
+codex plugin add matt-pocock-skills@matt-pocock-skills
+```
+
+The Codex package lives in [`plugins/matt-pocock-skills`](./plugins/matt-pocock-skills). It flattens
+the promoted `engineering`, `productivity`, and `misc` skills into the layout Codex expects while
+leaving the source bucket layout under [`skills/`](./skills) unchanged.
+
 ## Why These Skills Exist
 
 I built these skills as a way to fix common failure modes I see with Claude Code, Codex, and other coding agents.

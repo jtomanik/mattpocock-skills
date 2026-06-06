@@ -1,0 +1,37 @@
+{
+  "name": "matt-pocock-skills",
+  "version": "0.1.8+codex.20260606",
+  "description": "Bundled non-deprecated skills from Matt Pocock's Skills For Real Engineers: engineering, productivity, and misc workflow skills for Codex.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  "homepage": "https://github.com/mattpocock/skills",
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "engineering",
+    "workflow",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Matt Pocock's Skills",
+    "shortDescription": "Engineering workflow skills from mattpocock/skills.",
+    "longDescription": "A Codex marketplace package of Matt Pocock's non-deprecated Skills For Real Engineers, including engineering workflow, productivity, and misc setup skills.",
+    "developerName": "Matt Pocock",
+    "category": "Engineering",
+    "capabilities": [
+      "Skills",
+      "Workflow",
+      "Code"
+    ],
+    "defaultPrompt": [
+      "Run a disciplined debugging loop.",
+      "Create a PRD from this context.",
+      "Set up Matt Pocock's skills in this repo."
+    ],
+    "brandColor": "#1D4ED8"
+  }
+}
