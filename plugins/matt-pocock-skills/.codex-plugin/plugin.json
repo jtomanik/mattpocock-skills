@@ -1,13 +1,13 @@
 {
   "name": "matt-pocock-skills",
-  "version": "0.1.8+codex.20260606",
-  "description": "Bundled non-deprecated skills from Matt Pocock's Skills For Real Engineers: engineering, productivity, and misc workflow skills for Codex.",
+  "version": "1.1.0+codex.20260711",
+  "description": "Bundled promoted engineering and productivity skills from Matt Pocock's Skills For Real Engineers for Codex.",
   "author": {
     "name": "Matt Pocock",
     "url": "https://github.com/mattpocock/skills"
   },
   "homepage": "https://github.com/mattpocock/skills",
-  "repository": "https://github.com/mattpocock/skills",
+  "repository": "https://github.com/jtomanik/mattpocock-skills",
   "license": "MIT",
   "keywords": [
     "skills",
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "Matt Pocock's Skills",
     "shortDescription": "Engineering workflow skills from mattpocock/skills.",
-    "longDescription": "A Codex marketplace package of Matt Pocock's non-deprecated Skills For Real Engineers, including engineering workflow, productivity, and misc setup skills.",
+    "longDescription": "A Codex marketplace package of Matt Pocock's promoted engineering and productivity skills, rebuilt from the upstream plugin manifest.",
     "developerName": "Matt Pocock",
     "category": "Engineering",
     "capabilities": [
